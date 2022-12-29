@@ -1,0 +1,70 @@
+.warna-back {
+    background-color: #141115f1;
+}
+.konten3 {
+    height: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.konten3 h2 {
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.konten3-li {
+    float: left;
+    display: block;
+    list-style: none;
+    margin: 30px 14px;
+    color: white;
+    background-color: #2f2c31f1;
+    height: 415px;
+    width: 300px;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.konten3-li:hover {
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(255, 247, 247, 0.25);
+ -moz-box-shadow: -1px 1px 5px 9px rgba(255, 255, 255, 0.25);
+ box-shadow: -1px 1px 5px 9px rgba(255, 255, 255, 0.25);
+}
+.gambarstock {
+    overflow: hidden;
+}
+.gambarstock img {
+    width: 300px;
+}
+.namaproduk {
+    width: 100%;
+    background-color: grey;
+    height: 130px;
+}
+.pesan {
+    width: 100%;
+    height: 50px;
+    background-color: lightseagreen;
+    text-align: center;
+    padding-top: 5px;
+}
+span {
+font-size: 25px;
+}
+.namaproduk ul li {
+    float: left;
+    list-style: none;
+    padding: 5px 5px;
+}
+.namaproduk h4 {
+    padding: 10px 10px;
+}
+.tersedia {
+    background-color: rgba(144, 238, 144, 0.356);
+    width: 45%;
+    font-size: 15px;
+}

@@ -1,0 +1,22 @@
+.konten2 {
+    background-color: #141115f1;
+    position: relative;
+    padding: 50px 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+.konten2 h1 {font-size: 40px;}
+.konten2 h3 {
+    font-size: 25px;
+}
+.konten2 h3,.konten2 ul {
+    margin-left: 30px;
+}
+.konten2 ul {
+    padding-top: 20px;
+}
+.konten2 ul li {
+    margin-left: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+} 

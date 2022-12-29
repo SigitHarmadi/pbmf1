@@ -1,0 +1,89 @@
+.hubungi {
+    background-color: #141115f1;
+    width: 100%;
+    color: white;
+}
+.tabel1 {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.tabel1 tr th, .tabel1 tr td {
+    text-align: left;
+    padding: 8px;
+}
+.tabel1 tr:nth-child(even){
+    background-color: #3e383ff1;
+}
+.tabel1 tr th {
+    background-color: #4CAF50 !important;
+    color: white;
+    text-align: center;
+}
+.tabel1 tr td img {
+    width: 40px;
+}
+.tabel1 tr:hover {
+    background-color: #6d636ef1;
+}
+
+/* form */
+.tabel2 {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+
+}
+.tabel2 caption {
+    text-align: center;
+    font-size: 30px;
+}
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: rgb(61, 134, 64);
+}
+input[type=reset] {
+    background-color: rgb(226, 58, 58);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+input[type=reset]:hover {
+    background-color: rgb(180, 41, 41);
+}

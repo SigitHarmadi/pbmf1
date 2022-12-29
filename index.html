@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/css01.css">
+    <link rel="stylesheet" type="text/css" href="css/css02.css">
+    <link rel="stylesheet" type="text/css" href="css/css03.css">
+    <link rel="stylesheet" type="text/css" href="css/css04.css">
+    <link rel="stylesheet" type="text/css" href="css/css05.css">
+    <!-- efek element scrolling -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   <!--ini slideshow -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!--ini slideshow -->
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Dancing+Script|Electrolize|Titillium+Web" rel="stylesheet">
+  <script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 200) {
+        $("nav").addClass("berubah");
+        $("#aktif2 a").addClass("aktif-2");
+    } else {
+        $("nav").removeClass("berubah");
+        $("#aktif2 a").removeClass("aktif-2");
+    }
+});
+  </script>
+    <link rel="icon" type="image/png" href="logo/steering-wheel.png">
+    <title>BERANDA</title>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <img src="logo/gascar.png" alt="">
+        <ul>
+            <li id="aktif2"><a class="navbar-aktif" href="#">BERANDA</a></li>
+            <li class="liclass"><a href="harga-sewa.html">HARGA SEWA</a>
+                <div class="menudrop">
+            <a href="harga-sewa.html#manual">TIPE MANUAL</a>
+            <a href="harga-sewa.html#matic">TIPE MATIC</a>
+            </div>
+            </li>
+            <li><a href="ketentuan-sewa.html">KETENTUAN SEWA</a></li>
+            <li><a href="hubungi.html">HUBUNGI</a></li>
+            <li><a id="tujuan-muncul" style="cursor: pointer;">TEAM</a>
+                <div class="menu-team">
+                    <ul class="nohover">
+                    </ul>
+                </div>
+                </li>
+        </ul>
+    </nav>
+    <!-- gambar slideshow & title -->
+<div id="wowslider-container1">
+        <div class="ws_images"><ul>  
+            </ul></div>
+            <div class="ws_bullets"><div>
+                <a href="#" title=""><span><img src="data1/tooltips/slide1.jpg" alt="slide1"/></span></a>
+                <a href="#" title=""><span><img src="data1/tooltips/slide2.jpg" alt="slide2"/></span></a>
+            </div></div><div class="ws_script" style="position:absolute;left:-99%">
+        <div class="ws_shadow"></div>
+        </div>	
+        <script type="text/javascript" src="engine1/wowslider.js"></script>
+        <script type="text/javascript" src="engine1/script.js"></script>
+        <!-- gambar slideshow & title -->
+    <div class="konten">
+    <div class="konten-pertama">
+        <br>
+        <h2 class="efek-judul">" Selamat Datang Di GASCAR Sewa Mobil "</h2>
+        <p class="efek-pendahuluan">GASCAR/Sewa Mobil menawarkan pilihan jasa rental mobil yang bertempat di kota Yogyakarta yang memiliki tarif sewa murah termasuk supir dan bahan bakar, gascar memberikan kenyamanan bagi anda. Gascar berkomitmen untuk selalu memberikan yang terbaik untuk perjalanan anda dan keluarga selama berlibur di Kota Yogyakarta. Nikmatai berbagai kemudahan dalam berkeliling ke berbagai destinasi di Yogyakarta dan sekitarnya dengan jasa sewa mobil Jogja murah dengan sopir dan BBM dari Gascar. Kami juga selalu menjaga kondisi kendaraan secara berkala demi menambah kenyamanan para wisatawan yang menggunakan jasa kami.</p>
+    <img src="logo/montir.png">
+    </div>
+    </div>
+    <div id="balik-hr">
+            <hr class="gaya-hr">
+            </div>
+
+    <div class="konten konten-ples">
+            <ul>
+                <li class="efek-box-1"><img src="logo/rental1.png">
+                    <h2>STOK MOBIL BANYAK</h2>
+                  <p>Kami menyiapkan mobil banyak pilihan mulai kapasitas 4 orang sampai kapasitas 8 orang untuk segala keperluan acara kantor dan wisata di jogja dan sekitarnya. Kami juga selalu meregenerasi mobil dengan mobil yang baru sesuai dengan permintaan konsumen sekarang ini</p>
+                    </li>
+                <li class="efek-box-2"><img src="logo/speed1.png">
+                    <h2>Reservasi Mudah & Cepat</h2>
+                    <p>Kami memberikan kemudahan untuk Anda melakukan pemesanan, cukup dengan whatsapp ke nomor  Kontak kami akan merespon secepatnya. Silahkan bertanya-tanya dulu tidak apa-apa tanpa biaya (Tanya-tanya GRATIS)</p>
+                </li>
+                <li class="efek-box-3"><img src="logo/secure-shield1.png">
+                    <h2>Emergency Road Service</h2>
+                    <p>Semua ini kita semua tidak ingin terjadi. Akan tetapi kami sudah menyiapkan team Service yang akan segera datang ke lokasi jika terjadi kerusakan ringan (AC trouble, Aki mati, dll), untuk solusi  lain kami juga sudah siapkan segera mobil pengganti.</p>
+                </li>
+            </ul>
+    </div>
+    <div class="konten">
+        <h2 class="judul-yutub">Review Mobil Rilis 2020 Terbaru</h2>
+        <div id="balik-hr" style="width: 50%; margin-left: auto; margin-right: auto;">
+                <hr class="gaya-hr">
+                        </div>
+        <iframe class="efek-yutub1" id="frame-yutub" src="https://www.youtube.com/embed/St2J2NO2R8w?start=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="efek-yutub2" id="frame-yutub2" src="https://www.youtube.com/embed/alnxAk5SSfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="balik-hr">
+    <hr class="gaya-hr">
+            </div>
+    <div class="konten">
+        <div class="alamat">
+                <img src="logo/online-store.png">
+        <h2 class="efek-alamat">ALAMAT KAMI :</h2>
+        <P class="efek-alamat">Jl. Anggajaya 1 No.300, Sanggrahan, Condongcatur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55283
+        </P>
+        <iframe class="efek-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.325633748897!2d110.39568962916611!3d-7.757703570819673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59a6b30749a9%3A0xb51af53044e2ab46!2sOVCC!5e0!3m2!1sid!2sid!4v1545685099559" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div id="footer2" align="center">
+            <h2>FOLLOW US ON</h2>
+            <ul>
+                <li><a href="#"><img src="logo/facebook.png"></a></li>
+                <li><a href="#"><img src="logo/twitter.png"></a></li>
+                <li><a href="#"><img src="logo/instagram.png"></a></li>
+                <li><a href="#"><img src="logo/youtube.png"></a></li>
+            </ul>
+            <p>gascar since 2018</p>
+        </div>
+        <!-- jquery klik menu team -->
+        <script type="text/javascript" src="engine1/klik-menu-team.js"></script>
+</body>
+</html>

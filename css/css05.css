@@ -1,0 +1,218 @@
+@media(max-width: 667px) {
+
+    header {
+        width: 100%;
+        height: 60px;
+    }
+    nav {
+        height: 60px;
+    }
+    nav img {
+        display: none;
+    }
+    nav ul {
+        margin-left: 0;
+    }
+    nav ul li {
+    }
+    nav ul li a {
+        padding: 6px;
+        padding-top: 30px;
+        padding-bottom: 18px;
+        font-size: 10px;
+    }
+    .berubah {
+        height: 50px;
+    }
+    .berubah ul {
+        margin-left: 0;
+    }
+    .berubah ul li a {
+        padding: 6px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+        font-size: 10px;
+    }
+    .alamat img {
+        display: none;
+    }
+    .konten {
+        height: 800px;
+    }
+    .konten-ples {height: 1100px; }
+    .konten-pertama {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .konten-pertama h2 {
+        left: 0;
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    .konten-pertama p {
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .konten-pertama img {
+        bottom: 0;
+        width: 200px;
+        margin-left: 20%;
+    }
+    .konten ul {
+        padding-top: 30px;
+    }
+    .konten ul li {
+        left: 10px;
+        margin: 10px 10px;
+        font-size: 15px;
+        height: 330px;
+        width: 320px;
+    }
+    .konten ul li img {
+        width: 80px;
+        padding: 10px 15px;
+    }
+    .judul-yutub {
+        font-size: 27px;
+        margin: 0 5%;
+    }
+    #frame-yutub, #frame-yutub2 {
+        width: 90%;
+        height: 40%;
+        top: 10%;
+    }
+    #frame-yutub2 {
+        left: 5%;
+        top: 55%;
+    }
+    iframe {
+        width: 90%;
+        height: 40%;
+        left: 5%;
+    }
+    .alamat {
+        font-size: 18px;
+    }
+    .alamat p {
+        margin-left: 0;
+        margin-top: 120%;
+    }
+    .alamat h2 {
+        left: 5%;
+        top: 55%;
+        font-size: 25px;
+    }
+    #footer2 {
+        height: 150px;
+    }
+    #footer2 p {
+        left: 42%;
+    }
+    #footer2 ul {
+        margin-left: 10%;
+    }
+    #footer2 ul li a img {
+        width: 30px;
+        padding: 30px 20px;
+    }
+    #footer2 p {
+        margin-top: 70px;
+        left: 33%;
+    }
+    .menu-team {
+        height: 250px;
+    }
+    .menu-team ul {
+        top: 5%;
+    }
+    .menu-team ul li {
+        width: 10% !important;
+        padding: 5px 20px !important;
+    }
+    .menu-team ul li img {
+        display: block !important;
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .menu-team ul li span {
+        position: relative;
+        left: 10px !important;
+        font-size: 10px !important;
+        top: 70px;
+        padding: 5px 5px;
+        padding-left: 0 !important;
+    }
+    footer {
+        height: 150px;
+    }
+    footer ul {
+        margin-left: 10%;
+    }
+    footer ul li a img {
+        width: 30px;
+        padding: 30px 20px;
+    }
+    footer p {
+        margin-top: 70px;
+        left: 33%;
+    }
+    /* -----harga sewa-------- */
+    .konten3 {
+        height: 3700px;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .konten3 h2 {
+        font-size: 35px;
+    }
+    .konten3 ul {
+        padding-left: 15px; 
+    }
+    .konten3 li {
+        float: none;
+    }
+    .gambarstock img {
+    }
+    /* --------ketentuan sewa------- */
+    .konten2 {
+        padding: 25px 15px;
+    }
+    .konten2 h1 {
+        font-size: 30px;
+    }
+    .konten2 h3 {
+        font-size: 20px;
+    }
+    .konten2 ul li {
+        font-size: 17px;
+        margin-left: 25px;
+    }
+    .konten2 h3, .konten2 ul {
+        margin-left: 15px;
+    }
+    /* ------hubungi----------- */
+    .tabel1 {
+        width: auto;
+        font-size: 15px;
+    }
+    .tabel1 tr td img {
+        width: 20px;
+    }
+    .tabel1 tr th, .tabel1 tr td {
+        padding: 5px;
+    }
+    .tabel2 {
+        width: auto;
+        font-size: 15px;
+    }
+    .tabel2 tr td {
+        padding: 5px;
+    }
+    .tabel2 caption {
+        font-size: 25px;
+    }
+    input [type=text], input [type=email], input [type=button], input [type=reset] {
+        padding: 10px 15px;
+    }
+}

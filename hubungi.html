@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/css01.css">
+    <link rel="stylesheet" type="text/css" href="css/css02.css">
+    <link rel="stylesheet" type="text/css" href="css/css03.css">
+    <link rel="stylesheet" type="text/css" href="css/css04.css">
+    <link rel="stylesheet" type="text/css" href="css/css05.css">
+     <!-- efek element scrolling -->
+     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+           <!--ini slideshow -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!--ini slideshow -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Electrolize|Titillium+Web" rel="stylesheet">
+  <script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 100) {
+        $("nav").addClass("berubah");
+        $("#aktif2 a").addClass("aktif-2");
+    } else {
+        $("nav").removeClass("berubah");
+        $("#aktif2 a").removeClass("aktif-2");
+    }
+});
+    function cekNama(form) {
+        if (form.nama.value == "") {
+        alert("Nama harus dimasukkan");
+        form.Nama.focus();
+        return(false);
+        }
+        if (form.alamat.value == "") {
+        alert("Alamat harus dimasukkan");
+        form.Alamat.focus();
+        return(false);
+        }
+        if (form.Nomer.value == "") {
+        alert("Nomer harus dimasukkan");
+        form.Nomer.focus();
+        return(false);
+        }
+        if (form.Email.value == "") {
+        alert("Email harus dimasukkan");
+        form.Email.focus();
+        return(false);
+        }
+        alert("Terima kasih, ");
+        return(true);
+        }
+  </script>
+    <link rel="icon" type="image/png" href="logo/steering-wheel.png">
+    <title>KETENTUAN SEWA</title>
+</head>
+<body>
+    <header></header>
+    <nav>
+        <img src="logo/gascar.png" alt="">
+        <ul>
+            <li><a href="index.html">BERANDA</a></li>
+            <li class="liclass"><a href="harga-sewa.html">HARGA SEWA</a>
+                <div class="menudrop">
+            <a href="harga-sewa.html#manual">TIPE MANUAL</a>
+            <a href="harga-sewa.html#matic">TIPE MATIC</a>
+            </div>
+            </li>
+            <li><a href="ketentuan-sewa.html">KETENTUAN SEWA</a></li>
+            <li id="aktif2"><a class="navbar-aktif" href="#">HUBUNGI</a></li>
+            <li class="team-gascar"><a id="tujuan-muncul" style="cursor: pointer;">TEAM</a>
+                <div class="menu-team">
+                    <ul class="nohover">
+                    </ul>
+                </div>
+                </li>
+        </ul>
+    </nav>
+        <br>
+        <br>
+        <div id="balik-hr">
+                <hr class="gaya-hr">
+                </div>
+                <br>
+                <br>
+                <form>
+                <table class="tabel2">
+                   <caption class="efek-tabel1">REGISTER</caption>
+                <tr class="efek-tabel1">
+                <td>Nama Lengkap </td>
+                <td><input type="text" name="nama" placeholder="Masukan nama"></td>
+                </tr>
+                <tr class="efek-tabel1">
+                <td>Alamat</td>
+                <td><input type="text" name="alamat" placeholder="Masukan alamat"></td>
+                </tr>
+                <tr class="efek-tabel2">
+                <td>Nomer Hp</td>
+                <td><input type="text" name="Nomer" placeholder="Masukan nomor handphone"></td>
+                </tr>
+                <tr class="efek-tabel2">
+                <td>Email</td>
+                <td><input type="text" name="Email" placeholder="Masukan Email"></td>
+                </tr>
+                <tr class="efek-tabel2">
+                <td colspan="2" style="text-align: center; padding: 20px 10px;"><input type="button" value="Kirim" onclick = "cekNama(this.form)"><input type="reset"></td>
+                </tr>
+                </table>
+                </form>
+</div>
+    <footer align="center">
+        <h2>FOLLOW US ON</h2>
+        <ul>
+            <li><a href="#"><img src="logo/facebook.png"></a></li>
+            <li><a href="#"><img src="logo/twitter.png"></a></li>
+            <li><a href="#"><img src="logo/instagram.png"></a></li>
+            <li><a href="#"><img src="logo/youtube.png"></a></li>
+        </ul>
+        <p>gascar since 2018</p>
+    </footer>
+            <!-- jquery klik menu team -->
+            <script type="text/javascript" src="engine1/klik-menu-team.js"></script>
+</body>
+</html>
